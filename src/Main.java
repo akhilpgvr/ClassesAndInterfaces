@@ -4,5 +4,7 @@ public class Main {
         Calculator calculator = new Calculator();
         calculator.calculatorOperations();
         System.out.println("--------------------------------");
+        StringOperations so = new StringOperations();
+        so.stringOperations();
     }
 }
